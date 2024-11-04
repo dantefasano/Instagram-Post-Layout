@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+/* Post Container */
+.post {
+    width: 360px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Header */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.html5-logo {
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+}
+
+.user-info p {
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Roboto", serif;
+    font-size: small;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.dots {
+    margin-left: auto;
+    font-size: 20px;
+    color: black;
+}
+
+/* Image */
+.post-img img {
+    width: 100%;
+    display: block;
+}
+
+/* Post Body */
+.post-body {
+    padding: 10px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-icons i {
+    font-size: 22px;
+    color: black;
+    margin-right: 7px;
+}
+
+.bookmark {
+    margin-left: auto;
+}
+
+.likes-text {
+    font-family: "Roboto", serif;
+    font-size: small;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.insta-text {
+    color: black;
+    line-height: 1.5;
+}
